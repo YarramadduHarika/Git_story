@@ -1,0 +1,19 @@
+git init -> initialize empty repository in user floder.
+git add file.txt -> adds the only one text file in repository.
+git add . -> adds all the files to current repository.
+git status -> displays all the hidden and present files in repository.
+git rm --cached -r . -> removes all files from repository.
+
+If we want to remove only specific files in list then we can use .gitignore file, where the specific files are which we want to remove are mentioned in that file, so that it removes all mentioned files.
+for example if we have secrete.txt, file1.txt, file2.txt, .ds_store files in repository but we need to remove .ds_store and secrete.txt file then if we mention those two file names in .gitignore then our repository only have file1.txt and file2.txt only rest will be removed.
+If we want to remove all .txt files in repository then *.txt command in .gitignore file  removes all txt files.
+
+git commit -m "complete files" -> all the files be green and commited to repository
+
+
+
+git log -> diaplays all existing files or recently done actions in that repository.
+
+git branch alien-plot -> it creates an git branch of name alien-plot.
+
+git checkout alien-plot ->it makes you to move to the alien-plot branch file. 
